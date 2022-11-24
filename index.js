@@ -256,10 +256,3 @@ function onScrollInit(items, elemTrigger) {
       );
     });
   }
-
-  window.addEventListener('scroll', function(){
-    var scroll = this.window.scrollY;
-    var y = this.window.screenY;
-    console.log(scroll);
-    console.log(y);
-  })
