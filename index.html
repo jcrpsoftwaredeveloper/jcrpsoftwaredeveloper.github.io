@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>particles.js</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" media="screen" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+
+  
+
+<!-- particles.js container -->
+<div id="particles-js">
+  <header id="menu">
+    <nav>
+      <ul>
+        <li><a id="nav-home" href="#particles-js"><i class='bx bxs-home-alt-2' style='color:#e31b6d'  ></i> HOME</a></li>
+        <li><a id="nav-about" href="#about-link"><i class='bx bxs-user' style='color:#e31b6d' ></i> ABOUT</a></li>
+        <li><a id="nav-portfolio" href="#skills-link"><i class='bx bx-desktop' style='color:#e31b6d' ></i> SKILLS</a></li>
+        <li><a id="nav-contact" href="#contact"><i class='bx bxs-contact' style='color:#e31b6d' ></i> CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container-hero">
+      <p>Welcome to my Blog!</p>
+      <p>Im José Rodríguez</p>
+      <p class="profesion">Sotfware <span class="subrayado">Developer</span></p>
+    </div>
+
+    <div class="container-btn-hero">
+      <a href="#about-link">
+        <button id="btn-work">
+          <span>View my skills</span>
+          <svg id="flecha" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </button>
+      </a>
+      <a href="#contact">
+        <button id="btn-contact">
+          <span>Work together</span>
+          <svg id="flecha" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </button>
+      </a>
+    </div>
+  </section>
+</div>
+
+<div id="about-link"></div>
+
+
+<section id="about">
+  <div class="container-title">
+    <p id="slider" class="">ABOUT</p>
+  </div>
+  <div id="separador-about" class="separador-titulos"></div>
+
+  <div class="propiedades">
+        <div class="propiedad">
+            <div id="propiedad-img" class="propiedad-img"><i class='bx bxs-plane-land' style='color:#e31b6d' ></i></div>
+            <p id="propiedad-title" class="propiedad-titulo">FASTER</p>
+            <hr>
+            <p id="propiedad-text" class="propiedad-texto">Fast load times and lag free interaction, my highest priority.</p>
+        </div>
+        <div class="propiedad">
+            <div id="propiedad-img" class="propiedad-img"><i class='bx bxs-objects-horizontal-left' style='color:#e31b6d' ></i></div>
+            <p id="propiedad-title" class="propiedad-titulo">RESPONSIVE</p>
+            <hr>
+            <p id="propiedad-text" class="propiedad-texto">My layouts will work on any device, big or small.</p>
+        </div>
+        <div class="propiedad">
+            <div id="propiedad-img" class="propiedad-img"><i class='bx bxs-group' style='color:#e31b6d' ></i></div>
+            <p id="propiedad-title" class="propiedad-titulo">GROUP</p>
+            <hr>
+            <p id="propiedad-text" class="propiedad-texto">Strong preference for group work.</p>
+        </div>
+        <div class="propiedad">
+            <div id="propiedad-img" class="propiedad-img"><i class='bx bxs-cube-alt' style='color:#e31b6d' ></i></div>
+            <p id="propiedad-title" class="propiedad-titulo">DINAMIC</p>
+            <hr>
+            <p id="propiedad-text" class="propiedad-texto">Websites don't have to be static, I love making pages come to life.</p>
+        </div>
+  </div>
+</section>
+
+<div id="skills-link"></div>
+
+<section id="habilidades">
+  <div class="container-title2">
+    <p id="slider2" class="">SKILLS</p>
+  </div>
+  <div id="separador-about2" class="separador-titulos"></div>
+
+  <div class="sugerencia">
+    <p id="propiedad-text-habilidades">Currently focus on learning php to link it with laravel and javascript.</p>
+  </div>
+
+  <div class="container-habilidades">
+    <div id="slide-h" class="habilidad">
+      <div class="lenguaje">CSS</div>
+      <div id="h1" class="conocimiento animar"></div>
+    </div>
+
+    <div id="slide-h" class="habilidad">
+      <div class="lenguaje">HTML</div>
+      <div id="h2" class="conocimiento animar"></div>
+    </div>
+
+    <div id="slide-h" class="habilidad">
+      <div class="lenguaje">JAVA</div>
+      <div id="h3" class="conocimiento animar"></div>
+    </div>
+
+    <div id="slide-h" class="habilidad">
+      <div class="lenguaje">PHP</div>
+      <div id="h4" class="conocimiento animar"></div>
+    </div>
+
+    <div id="slide-h" class="habilidad">
+      <div class="lenguaje">JAVASCRIPT</div>
+      <div id="h5" class="conocimiento animar"></div>
+    </div>
+
+    <div id="slide-h" class="habilidad">
+      <div class="lenguaje">TYPESCRIPT</div>
+      <div id="h6" class="conocimiento animar"></div>
+    </div>
+  </div>
+    
+</section>
+
+
+<section class="frameworks">
+  <div class="container-title4">
+    <p id="slider4" class="">FRAMEWORKS / TECNOLOGIES</p>
+  </div>
+  <div id="separador-about4" class="separador-titulos4"></div>
+
+  <div class="sugerencia">
+    <p id="propiedad-text-framework">Currently focus on perfect these frameworks/tecnologies too.</p>
+  </div>
+
+  <div class="container-habilidades">
+    <div id="slide-f" class="habilidad">
+      <div class="lenguaje">ANGULAR</div>
+      <div id="h7" class="conocimiento animar"></div>
+    </div>
+
+    <div id="slide-f" class="habilidad">
+      <div class="lenguaje">LARAVEL</div>
+      <div id="h8" class="conocimiento animar"></div>
+    </div>
+
+    <div id="slide-f" class="habilidad">
+      <div class="lenguaje">SPRINGBOOT</div>
+      <div id="h9" class="conocimiento animar"></div>
+    </div>
+
+    <div id="slide-f" class="habilidad">
+      <div class="lenguaje">JSP</div>
+      <div id="h10" class="conocimiento animar"></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+    <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+  </svg>
+  <div class="container-title3">
+    <p id="slider5" class="">CONTACT</p>
+  </div>
+  <div id="separador-about5" class="separador-titulos3"></div>
+
+  <p id="question-form" class="text-form">Have a question or want to work together?</p>
+
+  <div class="container-formulario-contacto">
+    <form>
+      <input id="frm" type="text" name="nombre" placeholder="Name">    
+      <input id="frm" type="email" name="email" placeholder="E-mail">   
+      <textarea id="frm" name="mensaje" placeholder="Enter your message"></textarea>
+      <button id="frm" type="submit">SUBMIT</button>
+    </form>
+  </div>
+  <div class="relleno"></div>
+</section>
+
+<footer>
+  <div class="contenedor-enlace-footer">
+    <div id="flecha-home" class="flecha-home"><a href="#particles-js"><i class='bx bx-chevrons-up' style='color:#ffffff'  ></i></a></div>
+  </div>
+  <div id="rs" class="container-rs">
+    <a href="https://www.linkedin.com/in/jos%C3%A9-carlos-rodr%C3%ADguez-prieto-38a383258/?trk=nav_responsive_tab_profile_pic"><i class='bx bxl-linkedin' style='color:#ffffff' ></i></a>
+    <a href="https://twitter.com/?lang=es"><i class='bx bxl-twitter' style='color:#ffffff' ></i></a>
+    <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt' style='color:#ffffff' ></i></a>
+    <a href="https://codepen.io/"><i class='bx bxl-codepen' style='color:#ffffff' ></i></a>
+  </div>
+  <p id="txt-footer" class="text-footer">JOSÉ RODRÍGUEZ <span class="subrayado">©2022</span></p>
+  <div class="relleno"></div>
+</footer>
+
+       <!--left: 0;
+    position: absolute;
+    top: 0;-->
+
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
